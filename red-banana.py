@@ -1,6 +1,12 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+
+# Install necessary dependencies
+st.subheader('Installing dependencies...')
+st.code('!pip install scikit-learn pandas numpy')
+
+# Import scikit-learn after installation
 from sklearn.linear_model import Ridge
 
 # Load your dataset
